@@ -5,6 +5,9 @@ Aplikasi Pendataan Alumni adalah aplikasi Android yang dirancang untuk mengelola
 ## Demo Aplikasi
 Silahkan download apk menggunakan link dibawah ini 
   - https://drive.google.com/file/d/1MHCrF7RP9hk-_EDPvUluYEya6CrDVORa/view?usp=sharing
+  - Login menggunakan :
+    - email : ilhamrhmtkbr@gmail.com
+    - password : ilham123
 
 ## Fitur Utama
 
