@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".alumni.AlumniUbahDataActivity">
+
+  <androidx.appcompat.widget.Toolbar
+      android:id="@+id/toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/blue_color"
+      app:titleTextColor="@color/bg_color"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"/>
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      app:layout_constraintTop_toBottomOf="@+id/toolbar"
+      app:layout_constraintBottom_toBottomOf="parent"
+      >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingHorizontal="10dp"
+        android:paddingBottom="40dp"
+        >
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:background="@drawable/bg_formel">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nim"
+            android:paddingTop="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/link_color"
+            android:textSize="12sp"
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/input_nim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:background="@android:color/transparent"
+            android:paddingTop="15dp"
+            android:padding="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:background="@drawable/bg_formel"
+          android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Alumni"
+            android:paddingTop="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/link_color"
+            android:textSize="12sp"
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/input_nama_alumni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:background="@android:color/transparent"
+            android:paddingTop="15dp"
+            android:padding="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:background="@drawable/bg_formel"
+          android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tempat Lahir"
+            android:paddingTop="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/link_color"
+            android:textSize="12sp"
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/input_tempat_lahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:background="@android:color/transparent"
+            android:paddingTop="15dp"
+            android:padding="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:background="@drawable/bg_formel"
+          android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lahir"
+            android:paddingTop="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/link_color"
+            android:textSize="12sp"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/input_tanggal_lahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:background="@android:color/transparent"
+            android:paddingTop="15dp"
+            android:padding="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:background="@drawable/bg_formel"
+          android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:paddingTop="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/link_color"
+            android:textSize="12sp"
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/input_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:background="@android:color/transparent"
+            android:paddingTop="15dp"
+            android:padding="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:background="@drawable/bg_formel"
+          android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agama"
+            android:paddingTop="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/link_color"
+            android:textSize="12sp"
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/input_agama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:background="@android:color/transparent"
+            android:paddingTop="15dp"
+            android:padding="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:background="@drawable/bg_formel"
+          android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tlp/Hp"
+            android:paddingTop="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/link_color"
+            android:textSize="12sp"
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/input_nomor_hp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:background="@android:color/transparent"
+            android:paddingTop="15dp"
+            android:padding="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:background="@drawable/bg_formel"
+          android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tahun Masuk"
+            android:paddingTop="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/link_color"
+            android:textSize="12sp"
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/input_tahun_masuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:background="@android:color/transparent"
+            android:paddingTop="15dp"
+            android:padding="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:background="@drawable/bg_formel"
+          android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tahun Lulus"
+            android:paddingTop="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/link_color"
+            android:textSize="12sp"
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/input_tahun_lulus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:background="@android:color/transparent"
+            android:paddingTop="15dp"
+            android:padding="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:background="@drawable/bg_formel"
+          android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pekerjaan"
+            android:paddingTop="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/link_color"
+            android:textSize="12sp"
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/input_pekerjaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:background="@android:color/transparent"
+            android:paddingTop="15dp"
+            android:padding="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:background="@drawable/bg_formel"
+          android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jabatan"
+            android:paddingTop="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/link_color"
+            android:textSize="12sp"
+            tools:ignore="RtlSymmetry" />
+
+        <EditText
+            android:id="@+id/input_jabatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:background="@android:color/transparent"
+            android:paddingTop="15dp"
+            android:padding="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+      </LinearLayout>
+
+      <Button
+          android:id="@+id/button_simpan"
+          android:text="Simpan"
+          style="@style/ButtonPrimary"
+          android:layout_marginTop="30dp"
+          android:layout_gravity="center"
+          />
+    </LinearLayout>
+  </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

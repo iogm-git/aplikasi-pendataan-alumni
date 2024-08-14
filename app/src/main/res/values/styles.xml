@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ButtonPrimary">
+        <item name="android:background">@drawable/bg_blue_radius_7</item>
+        <item name="android:textColor">@color/bg_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ButtonWarning">
+        <item name="android:background">@drawable/bg_orange_radius_7</item>
+        <item name="android:textColor">@color/bg_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ButtonSuccess">
+        <item name="android:background">@drawable/bg_green_radius_7</item>
+        <item name="android:textColor">@color/bg_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_tambah_data"
+        android:title="Tambah Data"/>
+    <item
+        android:id="@+id/action_data_alumni"
+        android:title="Data Alumni" />
+    <item
+        android:id="@+id/action_logout"
+        android:title="Logout"/>
+</menu>
